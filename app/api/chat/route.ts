@@ -4,7 +4,7 @@ import { z } from 'zod';
 
 // Create an OpenAI API client
 const config = new Configuration({
-  apiKey: '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',
+  apiKey: '',
 });
 const openai = new OpenAIApi(config);
 
